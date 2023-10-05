@@ -4,11 +4,80 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 }
 
 
-.clearfix::after {
+.contenitore::after {
     content: "";
     display: block;
     clear: both;
+}
+
+main {
+    width: 1100px;
+    margin: auto;
+}
+
+.titolo {
+    color: brown;
+    margin: 2rem;    
+    text-align: center;
+}
+
+.stile-box {
+    height: 110px;
+    width: 32%;
+    background-color: black;
+    float: left;
+    margin-top: 2rem;
+
+}
+
+/* .prima-box {
+    height: 110px;
+    width: 32%;
+    float: left;
+    background-color: black;
+    margin-top: 2rem;
+} */
+
+.box-centrale {
+    /* height: 110px;
+    width: 32%;
+    float: left;
+    background-color: black;
+    margin-top: 2rem; */
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+/* .terza-box {
+    height: 110px;
+    width: 32%;
+    float: right;
+    background-color: black;
+    margin-top: 2rem;
+} */
+
+
+img {
+    height: 100%;
+}
+
+.float-box {
+    float: left;
+    margin-right: 15px;
+}
+
+
+.testi-box {
+        color: white;
+      
+}
+
+.email {
+    color: aqua;
+    margin-top: 30px;
+
 }
