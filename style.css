@@ -4,11 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     font-family: 'Fredoka', sans-serif;
 }
 
-
-.contenitore::after {
+.clearfix::after {
     content: "";
     display: block;
     clear: both;
@@ -20,8 +22,12 @@ main {
 }
 
 .titolo {
-    color: brown;
+    color: #E53170;
     margin: 2rem;    
+    text-align: center;
+}
+
+#testo-centrale {
     text-align: center;
 }
 
@@ -44,6 +50,13 @@ img {
 
 span {
     display: inline-block
+}
+
+
+.float-box::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .float-box {
